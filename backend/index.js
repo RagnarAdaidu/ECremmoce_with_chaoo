@@ -9,7 +9,6 @@ app.use(cors())
 
 app.get('/', (req, res) => {
   res.send('Welcome to our online shop')
-  console.log(products)
 })
 app.get('/products', (req, res) => {
   res.json(products)
